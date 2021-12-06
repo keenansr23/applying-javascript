@@ -1,0 +1,132 @@
+/*!
+ *    FileName:  index.css
+ *  Assignment:  Style sheet for assignment: index.html
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Keenan Srisaeng | KEENAN.SRISAENG@student.csn.edu
+ *Date Updated:  02/12/2021
+ *
+ * Description: unique selectors for formatting a0.html          
+ *
+ */
+
+/* populate the rest of this document with the css code to format a0.html */
+/* Reset */
+article, body, footer, header, h1, nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Article */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+figcaption {
+  margin: 10px;
+}
+
+article {
+  max-width: 750px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  margin: auto;
+}
+
+.left {
+  text-align: left;
+  padding: 1px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #e7e7e7;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 2px;
+  background-color: #282828;
+  text-align: center;
+}
+
+.navbar li {
+   display: inline;
+   font-size: 16px;
+   text-align: center;
+}
+
+.navbar a { 
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:visited {
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer {
+  background: #e7e7e7;
+  color: black;
+  text-align: center;
+  position: relative;
+  padding: 8px;
+}
+
+/* Home Button */
+.button {
+  background-color: #1A81E1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+    background-color: #569DDF;
+}

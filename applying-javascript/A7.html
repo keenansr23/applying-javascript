@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A7</title>
+    <link rel="stylesheet" type="text/css" href="css/a7.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <div id="header"></div>
+			<div id="assignment"></div>
+			<div id="name"></div>
+            <h3><a class="button" href="A1.html">Home</a></h3>
+        </header>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul id="navbarMenu"></ul> <!-- Navigation created in menu.js -->
+        </nav>
+    </div>
+
+    <div class="main">
+        <main>
+            <article>
+            
+            	<section>
+                    <form action="" method="get" id="search-form">
+                    
+                        <h2 id="addrBook">Address Book</h2>
+                        <input type="search" id="search-field" name="search-field" required placeholder="Search">
+                        
+                        <div id="button-group">
+                            <button type="submit" id="search-button">Search Contact</button>
+                            <button type="button" id="show-all">Show All Contacts</button>
+                        </div>
+                        
+                    </form>
+                    
+                    <table id="dashboard-table">
+                        <tbody class="names" id="output"></tbody>
+                    </table>
+                    
+                </section>
+                
+                <h2>For this assignment, I completed the following requirements:</h2>
+                <ul>
+                    <li>Updated Index file (Home) to include Assignment 7.</li>
+                    <li>Updated navigation to include link to Assignment 7.</li>
+                    <li>Created a JS file to place assignment name into the header of web page.</li>
+                    <li>Created a address book JSON object.</li>
+                    <li>Created methods to search for name or display entire address book.</li>
+                    <li>Attached event listeners to search form to display contact results.</li>
+                </ul>
+                
+            </article>
+        </main>
+    </div>
+
+    <div class="footer">
+        <footer>
+        	<p>
+        		&copy; Copyright 
+        		<script>
+                	document.write(new Date().getFullYear().toString())
+            	</script>
+            	by Keenan Srisaeng. All Rights Reserved.
+        	</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+    <script>
+        showMenu()
+    </script>
+    <script src="js/a7.js"></script>
+
+</body>
+
+</html>

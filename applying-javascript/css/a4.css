@@ -1,0 +1,17 @@
+/*!
+ *    FileName:  a4.css
+ *  Assignment:  Style sheet for assignment: a4
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Keenan Srisaeng | KEENAN.SRISAENG@student.csn.edu
+ *        Date:  02/28/21
+ *
+ * Description: unique selectors for formatting a4.html          
+ *
+ */
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css"; 
+
+/* populate the rest of this document with the css code to format a4.html */

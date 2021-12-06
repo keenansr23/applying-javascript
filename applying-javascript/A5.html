@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A5</title>
+    <link rel="stylesheet" type="text/css" href="css/a5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <div id="header"></div>
+            <div id="assignment"></div>
+            <div id="name"></div>
+            <h3><a class="button" href="A1.html">Home</a></h3>
+        </header>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul id="navbarMenu"></ul> <!-- Navigation created in menu.js -->
+        </nav>
+    </div>
+
+    <div class="main">
+        <main>
+            <!-- Multiplication, division, and conversion cards -->
+
+            <div class="dashboard-grid">
+                <article class="card">
+                    <h2>Convert Kilometers to Miles</h2>
+                    <div class="textbox">
+                        <input type="text" id="kmConvert">
+                        <p id="resultMiles">0.0km(s) = 0.00 mile(s)</p>
+                    </div>
+                </article>
+            </div>
+
+            
+
+            <!-- What I Have Done -->
+            <article>
+                <h2>For this assignment, I completed the following requirements:</h2>
+                <ul>
+                    <li>Updated Index file (Home) to include Assignment 6.</li>
+                    <li>Updated navigation to include link to Assignment 6.</li>
+                    <li>Created a JS file to place assignment name into the header of web page.</li>
+                    <li>Used a for loop to create a JSON object.</li>
+                </ul>
+            </article>
+
+        </main>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>
+                &copy; Copyright
+                <script>
+                    document.write(new Date().getFullYear().toString())
+                </script>
+                by Keenan Srisaeng. All Rights Reserved.
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+    <script>
+        showMenu()
+    </script>
+    <script src="js/a5.js"></script>
+
+</body>
+
+</html>

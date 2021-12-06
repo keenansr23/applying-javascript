@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A6</title>
+    <link rel="stylesheet" type="text/css" href="css/a6.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <div id="header"></div>
+			<div id="assignment"></div>
+			<div id="name"></div>
+            <h3><a class="button" href="A1.html">Home</a></h3>
+        </header>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul id="navbarMenu"></ul> <!-- Navigation created in menu.js -->
+        </nav>
+    </div>
+
+    <div class="main">
+        <main>
+        
+        	
+        	<table id="dashboard-table">
+        	    <caption>
+        	    	<h2>JSON Object</h2>
+        	    </caption>
+        		<!-- Table created in a6.js -->
+            </table>
+        
+            <article>
+                <h2>For this assignment, I completed the following requirements:</h2>
+                <ul>
+                    <li>Updated Index file (Home) to include Assignment 6.</li>
+                    <li>Updated navigation to include link to Assignment 6.</li>
+                    <li>Created a JS file to place assignment name into the header of web page.</li>
+                    <li>Used a For Loop to create a JSON object and then used a different For Loop to
+                     display the contents of your JSON object.</li>
+                </ul>
+            </article>
+        </main>
+    </div>
+
+    <div class="footer">
+        <footer>
+        	<p>
+        		&copy; Copyright 
+        		<script>
+                	document.write(new Date().getFullYear().toString())
+            	</script>
+            	by Keenan Srisaeng. All Rights Reserved.
+        	</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+    <script>
+        showMenu()
+    </script>
+    <script src="js/a6.js"></script>
+    <script>
+        createTable(table, contacts);
+		createTableHeader(table, data);
+    </script>
+
+</body>
+
+</html>

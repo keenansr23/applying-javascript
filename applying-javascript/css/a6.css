@@ -1,0 +1,38 @@
+/*!
+ *    FileName:  a6.css
+ *  Assignment:  Style sheet for assignment: a6
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Keenan Srisaeng | KEENAN.SRISAENG@student.csn.edu
+ *        Date:  03/13/2021
+ *
+ * Description: unique selectors for formatting a6.html          
+ *
+ */
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css";
+
+/* populate the rest of this document with the css code to format a6.html */
+
+/* Table Styles */
+#dashboard-table {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+#dashboard-table th {
+  text-align: center;
+  background-color: #4c87af;
+  color: white;
+}
+
+#dashboard-table tr {
+  background-color: #eeeeee;
+}
+

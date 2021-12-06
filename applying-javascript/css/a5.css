@@ -1,0 +1,57 @@
+/*!
+ *    FileName:  a5.css
+ *  Assignment:  Style sheet for assignment: a5
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Keenan Srisaeng | KEENAN.SRISAENG@student.csn.edu
+ *        Date:  03/12/21
+ *
+ * Description: unique selectors for formatting a5.html          
+ *
+ */
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css"; 
+
+/* populate the rest of this document with the css code to format a5.html */
+
+/* Dashboard Cards Style */
+.dashboard-grid {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.card {
+    display: grid;
+    padding: 30px 70px;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.textbox input {
+    border: 1px solid #8b8b8b;
+    box-sizing: border-box;
+    margin: 25px;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+.jsonButtons {
+    margin-top: 50px;
+    width: 50% auto;
+    text-align: center;
+    display: center;
+}
